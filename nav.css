@@ -1,0 +1,46 @@
+@import url("./main.css");
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: spotify-circular,Helvetica,Arial,sans-serif;
+}
+#nav{
+    border: 2px solid;
+    height: 80px;
+    background-color: #000;
+}
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#sub-nav>span>svg{
+    height: 2.8em;
+    fill: #fff;
+}
+#sub-nav>ol{
+    padding: 0%;
+    list-style: none;
+    /* border: 2px solid; */
+    display: inline-flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+
+}
+#sub-nav>ol>li{
+    font-weight: 600;
+    font-size: 15px;
+}
+#sub-nav>ol>li:hover{
+    color: #1ed760;
+    cursor: pointer;
+}
